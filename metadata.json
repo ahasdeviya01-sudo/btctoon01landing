@@ -1,0 +1,5 @@
+{
+  "name": "BTC/USDT Battleground",
+  "description": "A multi-source WebSocket price feed dashboard for BTC/USDT with retro graphics.",
+  "requestFramePermissions": []
+}

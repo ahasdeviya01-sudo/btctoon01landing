@@ -1,0 +1,19 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+Thumbs.db
+*.log
+*.zip
+.env*
+!.env.example
+
+# Backup files
+*.bak
+
+# Raw toon post source images (already copied to public/posts/)
+toon posts/
+
+# Duplicate sounds at root (canonical copy is in public/sounds/)
+/sounds/

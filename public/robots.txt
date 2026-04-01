@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+
+Sitemap: https://btctoon.com/sitemap.xml
+
+# Crawl live pages aggressively
+User-agent: Googlebot
+Crawl-delay: 0
+
+User-agent: Bingbot
+Crawl-delay: 1

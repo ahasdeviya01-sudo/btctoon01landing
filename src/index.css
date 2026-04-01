@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth scrolling */
+html { scroll-behavior: smooth; }
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
+
+/* Utility: hide scrollbar but keep functionality */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Selection styling */
+::selection { background: rgba(16,185,129,0.3); color: #fff; }
+
+/* Smooth transitions on interactive elements */
+a, button { transition-property: color, background-color, border-color, box-shadow, opacity; transition-duration: 200ms; transition-timing-function: ease-out; }
+
+/* Tabular nums for price data */
+.tabular-nums { font-variant-numeric: tabular-nums; }
