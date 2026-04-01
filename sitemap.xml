@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage — BTC Battleground -->
+  <url>
+    <loc>https://btctoon.com/</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://btctoon.com/posts/post-2026-04-01.png</image:loc>
+      <image:title>Bitcoin Price Today – Live Bulls vs Bears Battle</image:title>
+    </image:image>
+  </url>
+
+  <!-- ETH Stream -->
+  <url>
+    <loc>https://btctoon.com/eth</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- SOL Stream -->
+  <url>
+    <loc>https://btctoon.com/sol</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- XRP Stream -->
+  <url>
+    <loc>https://btctoon.com/xrp</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- DOGE Stream -->
+  <url>
+    <loc>https://btctoon.com/doge</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ADA Stream -->
+  <url>
+    <loc>https://btctoon.com/ada</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- AVAX Stream -->
+  <url>
+    <loc>https://btctoon.com/avax</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- LINK Stream -->
+  <url>
+    <loc>https://btctoon.com/link</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- History -->
+  <url>
+    <loc>https://btctoon.com/history</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Coin vs Coin -->
+  <url>
+    <loc>https://btctoon.com/vs</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Toon of the Day -->
+  <url>
+    <loc>https://btctoon.com/toon</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://btctoon.com/posts/post-2026-04-01.png</image:loc>
+      <image:title>Toon of the Day – btctoon.com</image:title>
+    </image:image>
+  </url>
+
+  <!-- Leaderboard -->
+  <url>
+    <loc>https://btctoon.com/leaderboard</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Serious Mode / Terminal -->
+  <url>
+    <loc>https://btctoon.com/serious</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>

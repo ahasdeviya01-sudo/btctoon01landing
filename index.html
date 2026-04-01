@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ══════ PRIMARY SEO ══════ -->
+    <title>Bitcoin Price Today $67656.81 | BTC to USD Live Price &amp; Battle – btctoon.com</title>
+    <meta name="description" content="Bitcoin price today is $67656.81 USD. Live BTC/USDT real-time price, 24h volume, and animated bulls vs bears battleground on btctoon.com. Updated 2026-04-01." />
+    <meta name="keywords" content="bitcoin price today, btc price, btc to usd, bitcoin live price, crypto price, bitcoin market cap, btc usd live, bitcoin today, btctoon, crypto battleground, bulls vs bears, bitcoin chart, ethereum price, solana price" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="https://btctoon.com/" />
+    <meta name="author" content="btctoon.com" />
+    <meta name="theme-color" content="#0a0a0f" />
+
+    <!-- ══════ OPEN GRAPH (Facebook / LinkedIn / Discord) ══════ -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="btctoon.com" />
+    <meta property="og:title" content="Bitcoin Price Today $67656.81 | BTC to USD Live – btctoon.com" />
+    <meta property="og:description" content="Live Bitcoin price $67656.81 updated every second. Watch the epic bulls vs bears animated battleground." />
+    <meta property="og:url" content="https://btctoon.com/" />
+    <meta property="og:image" content="https://btctoon.com/posts/post-2026-04-01.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="BTC USDT Live Battleground – btctoon.com" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- ══════ TWITTER CARD ══════ -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@btctoon" />
+    <meta name="twitter:creator" content="@btctoon" />
+    <meta name="twitter:title" content="Bitcoin Price Today $67656.81 | BTC to USD Live – btctoon.com" />
+    <meta name="twitter:description" content="Live BTC price &amp; animated bulls vs bears battle. Real-time Binance order flow visualisation." />
+    <meta name="twitter:image" content="https://btctoon.com/posts/post-2026-04-01.png" />
+    <meta name="twitter:image:alt" content="BTC USDT Live Battleground – btctoon.com" />
+
+    <!-- ══════ STRUCTURED DATA — WebSite ══════ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "btctoon.com",
+      "alternateName": ["BTC Toon", "Bitcoin Toon"],
+      "url": "https://btctoon.com/",
+      "description": "Real-time Bitcoin price today with animated bulls vs bears battleground driven by live Binance WebSocket data.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://btctoon.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- ══════ STRUCTURED DATA — FinancialProduct / CryptoCurrency ══════ -->
+    <!-- This block is auto-updated by scripts/update-seo.sh -->
+    <script type="application/ld+json" id="crypto-price-ld">
+    {
+      "@context": "https://schema.org",
+      "@type": "ExchangeRateSpecification",
+      "currency": "BTC",
+      "currentExchangeRate": {
+        "@type": "UnitPriceSpecification",
+        "price": "67656.81000000",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <!-- ══════ STRUCTURED DATA — Organization ══════ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "btctoon.com",
+      "url": "https://btctoon.com/",
+      "logo": "https://btctoon.com/logo.png",
+      "sameAs": [
+        "https://facebook.com/btc.toon",
+        "https://twitter.com/btctoon"
+      ]
+    }
+    </script>
+
+    <!-- ══════ FAVICONS ══════ -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- ══════ PRECONNECTS (speed) ══════ -->
+    <link rel="preconnect" href="https://api.binance.com" />
+    <link rel="preconnect" href="https://stream.binance.com" />
+    <link rel="dns-prefetch" href="https://api.binance.com" />
+    <script type="module" crossorigin src="/assets/index-BHE2xMq_.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CSyTHUKm.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- GitHub Pages SPA redirect handler (works with 404.html) -->
+    <script>
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      }(window.location))
+    </script>
+
+    <!-- ══════ CLIENT-SIDE SEO: inject live BTC price into <title> and meta ══════ -->
+    <script>
+    (function() {
+      var orig = document.title;
+      function up() {
+        fetch('https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT')
+          .then(function(r){return r.json()})
+          .then(function(d){
+            var p = parseFloat(d.price).toLocaleString('en-US',{style:'currency',currency:'USD'});
+            document.title = 'Bitcoin Price Today ' + p + ' | BTC to USD Live – btctoon.com';
+            var dm = document.querySelector('meta[name="description"]');
+            if(dm) dm.setAttribute('content','Bitcoin price today is '+p+'. Live BTC/USDT real-time price, 24h volume, and animated bulls vs bears battleground on btctoon.com. Updated every second.');
+            // Update LD+JSON price
+            var ld = document.getElementById('crypto-price-ld');
+            if(ld) {
+              try {
+                var j = JSON.parse(ld.textContent);
+                j.currentExchangeRate.price = d.price;
+                ld.textContent = JSON.stringify(j);
+              } catch(e){}
+            }
+          }).catch(function(){});
+      }
+      up();
+      setInterval(up, 30000); // refresh every 30s
+    })();
+    </script>
+  </body>
+</html>
+
