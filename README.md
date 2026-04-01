@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# btctoon.com - Crypto Battleground
 
-# Run and deploy your AI Studio app
+Real-time animated bulls vs bears battle driven by live Binance WebSocket data.
 
-This contains everything you need to run your app locally.
+**Live:** https://btctoon.com
 
-View your app in AI Studio: https://ai.studio/apps/a61d94b5-3d5a-4e87-ae7a-85cdb9305548
+## Features
+
+- Live Price Feed - Binance WebSocket + Coinbase fallback
+- Animated Battleground - Canvas-rendered bulls vs bears
+- Serious Mode - Premium trading terminal with TradingView chart
+- 8 Coins - BTC, ETH, SOL, XRP, DOGE, ADA, AVAX, LINK
+- Coin vs Coin - Side-by-side battle comparison
+- Toon of the Day - Daily illustrated market commentary
+- Full SEO - OG tags, Twitter cards, JSON-LD, sitemap
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+```bash
+npm install
+npm run dev
+```
 
+Opens on http://localhost:3000
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Deploy to GitHub Pages
+
+```bash
+npm run deploy
+```
+
+It will ask you:
+1. **Repo URL** - press Enter to use default
+2. **PAT token** - paste your GitHub Personal Access Token (hidden input)
+
+Source code goes to `main`, built site goes to `gh-pages`. Done.
+
+### Custom commit message:
+
+```bash
+bash scripts/deploy.sh "fix: updated chart colors"
+```
+
+## Branch Structure
+
+| Branch | Contents | Purpose |
+|---|---|---|
+| `main` | Source code | Edit and develop here |
+| `gh-pages` | Built production files | Served by GitHub Pages |
